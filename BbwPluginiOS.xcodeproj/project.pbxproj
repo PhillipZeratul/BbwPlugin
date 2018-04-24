@@ -13,10 +13,6 @@
 		DA33E4EA208983BA005FB0C4 /* project_to_line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E4E8208983BA005FB0C4 /* project_to_line.cpp */; };
 		DA33E4ED20898660005FB0C4 /* active_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E4EC2089865F005FB0C4 /* active_set.cpp */; };
 		DA33E4F1208986B6005FB0C4 /* min_quad_with_fixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E4F0208986B6005FB0C4 /* min_quad_with_fixed.cpp */; };
-		DA33E73120898B35005FB0C4 /* harmonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E72E20898B34005FB0C4 /* harmonic.cpp */; };
-		DA33E73220898B35005FB0C4 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E72F20898B35005FB0C4 /* slice.cpp */; };
-		DA33E73520898B55005FB0C4 /* slice_into.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E73420898B55005FB0C4 /* slice_into.cpp */; };
-		DA33E73820898B6C005FB0C4 /* cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E73620898B6C005FB0C4 /* cat.cpp */; };
 		DA33E73C20898BCD005FB0C4 /* is_symmetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E73A20898BCC005FB0C4 /* is_symmetric.cpp */; };
 		DA33E73F20898BF4005FB0C4 /* find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E73E20898BF4005FB0C4 /* find.cpp */; };
 		DA33E74220898C24005FB0C4 /* sparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E74020898C24005FB0C4 /* sparse.cpp */; };
@@ -39,6 +35,10 @@
 		DA33E7822089CD12005FB0C4 /* reorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA33E7812089CD12005FB0C4 /* reorder.cpp */; };
 		DA366023208727E000E114C5 /* BbwPluginiOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA366022208727E000E114C5 /* BbwPluginiOS.mm */; };
 		DA366024208727E000E114C5 /* BbwPluginiOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA366021208727E000E114C5 /* BbwPluginiOS.h */; };
+		DA7B0020208EDBCF0005B1E3 /* cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001A208EDBCD0005B1E3 /* cat.cpp */; };
+		DA7B0021208EDBCF0005B1E3 /* slice_into.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001B208EDBCE0005B1E3 /* slice_into.cpp */; };
+		DA7B0022208EDBCF0005B1E3 /* harmonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */; };
+		DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001F208EDBCF0005B1E3 /* slice.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -497,15 +497,6 @@
 		DA33E72A20898AF3005FB0C4 /* SVDBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDBase.h; sourceTree = "<group>"; };
 		DA33E72B20898AF3005FB0C4 /* TODOBdcsvd.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODOBdcsvd.txt; sourceTree = "<group>"; };
 		DA33E72C20898AF3005FB0C4 /* SVD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVD; sourceTree = "<group>"; };
-		DA33E72D20898B34005FB0C4 /* harmonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = harmonic.h; path = ../../../../Packages/libigl/include/igl/harmonic.h; sourceTree = "<group>"; };
-		DA33E72E20898B34005FB0C4 /* harmonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = harmonic.cpp; path = ../../../../Packages/libigl/include/igl/harmonic.cpp; sourceTree = "<group>"; };
-		DA33E72F20898B35005FB0C4 /* slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = slice.cpp; path = ../../../../Packages/libigl/include/igl/slice.cpp; sourceTree = "<group>"; };
-		DA33E73020898B35005FB0C4 /* slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slice.h; path = ../../../../Packages/libigl/include/igl/slice.h; sourceTree = "<group>"; };
-		DA33E73320898B55005FB0C4 /* slice_into.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slice_into.h; path = ../../../../Packages/libigl/include/igl/slice_into.h; sourceTree = "<group>"; };
-		DA33E73420898B55005FB0C4 /* slice_into.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = slice_into.cpp; path = ../../../../Packages/libigl/include/igl/slice_into.cpp; sourceTree = "<group>"; };
-		DA33E73620898B6C005FB0C4 /* cat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cat.cpp; path = ../../../../Packages/libigl/include/igl/cat.cpp; sourceTree = "<group>"; };
-		DA33E73720898B6C005FB0C4 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cat.h; path = ../../../../Packages/libigl/include/igl/cat.h; sourceTree = "<group>"; };
-		DA33E73920898B96005FB0C4 /* parallel_for.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parallel_for.h; path = ../../../../Packages/libigl/include/igl/parallel_for.h; sourceTree = "<group>"; };
 		DA33E73A20898BCC005FB0C4 /* is_symmetric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = is_symmetric.cpp; sourceTree = "<group>"; };
 		DA33E73B20898BCD005FB0C4 /* is_symmetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = is_symmetric.h; sourceTree = "<group>"; };
 		DA33E73D20898BF4005FB0C4 /* find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = find.h; sourceTree = "<group>"; };
@@ -553,6 +544,15 @@
 		DA36601E208727E000E114C5 /* libBbwPluginiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBbwPluginiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA366021208727E000E114C5 /* BbwPluginiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BbwPluginiOS.h; sourceTree = "<group>"; };
 		DA366022208727E000E114C5 /* BbwPluginiOS.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BbwPluginiOS.mm; sourceTree = "<group>"; };
+		DA7B0017208EDBCD0005B1E3 /* parallel_for.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parallel_for.h; sourceTree = "<group>"; };
+		DA7B0018208EDBCD0005B1E3 /* harmonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = harmonic.h; sourceTree = "<group>"; };
+		DA7B0019208EDBCD0005B1E3 /* slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slice.h; sourceTree = "<group>"; };
+		DA7B001A208EDBCD0005B1E3 /* cat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cat.cpp; sourceTree = "<group>"; };
+		DA7B001B208EDBCE0005B1E3 /* slice_into.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slice_into.cpp; sourceTree = "<group>"; };
+		DA7B001C208EDBCE0005B1E3 /* slice_into.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slice_into.h; sourceTree = "<group>"; };
+		DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = harmonic.cpp; sourceTree = "<group>"; };
+		DA7B001E208EDBCE0005B1E3 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		DA7B001F208EDBCF0005B1E3 /* slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slice.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,14 +578,21 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B001A208EDBCD0005B1E3 /* cat.cpp */,
+				DA7B001E208EDBCE0005B1E3 /* cat.h */,
+				DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */,
+				DA7B0018208EDBCD0005B1E3 /* harmonic.h */,
+				DA7B0017208EDBCD0005B1E3 /* parallel_for.h */,
+				DA7B001B208EDBCE0005B1E3 /* slice_into.cpp */,
+				DA7B001C208EDBCE0005B1E3 /* slice_into.h */,
+				DA7B001F208EDBCF0005B1E3 /* slice.cpp */,
+				DA7B0019208EDBCD0005B1E3 /* slice.h */,
 				DA33E4EC2089865F005FB0C4 /* active_set.cpp */,
 				DA33E4EB2089865F005FB0C4 /* active_set.h */,
 				DA33E4DD208982CF005FB0C4 /* bbw.cpp */,
 				DA33E4DE208982CF005FB0C4 /* bbw.h */,
 				DA33E4DF208982CF005FB0C4 /* boundary_conditions.cpp */,
 				DA33E4E0208982CF005FB0C4 /* boundary_conditions.h */,
-				DA33E73620898B6C005FB0C4 /* cat.cpp */,
-				DA33E73720898B6C005FB0C4 /* cat.h */,
 				DA33E7542089CB26005FB0C4 /* colon.cpp */,
 				DA33E7552089CB27005FB0C4 /* colon.h */,
 				DA33E7612089CBCA005FB0C4 /* cotmatrix_entries.cpp */,
@@ -606,8 +613,6 @@
 				DA33E7712089CC5B005FB0C4 /* face_areas.h */,
 				DA33E73E20898BF4005FB0C4 /* find.cpp */,
 				DA33E73D20898BF4005FB0C4 /* find.h */,
-				DA33E72E20898B34005FB0C4 /* harmonic.cpp */,
-				DA33E72D20898B34005FB0C4 /* harmonic.h */,
 				DA33E4E3208982FE005FB0C4 /* igl_inline.h */,
 				DA33E7832089CD2E005FB0C4 /* IndexComparison.h */,
 				DA33E7582089CB63005FB0C4 /* invert_diag.cpp */,
@@ -623,17 +628,12 @@
 				DA33E4EF208986B6005FB0C4 /* min_quad_with_fixed.h */,
 				DA33E7652089CBE6005FB0C4 /* normalize_row_sums.cpp */,
 				DA33E7642089CBE6005FB0C4 /* normalize_row_sums.h */,
-				DA33E73920898B96005FB0C4 /* parallel_for.h */,
 				DA33E4E8208983BA005FB0C4 /* project_to_line.cpp */,
 				DA33E4E9208983BA005FB0C4 /* project_to_line.h */,
 				DA33E7812089CD12005FB0C4 /* reorder.cpp */,
 				DA33E7802089CD12005FB0C4 /* reorder.h */,
 				DA33E74320898C4A005FB0C4 /* repmat.cpp */,
 				DA33E74620898C4B005FB0C4 /* repmat.h */,
-				DA33E73420898B55005FB0C4 /* slice_into.cpp */,
-				DA33E73320898B55005FB0C4 /* slice_into.h */,
-				DA33E72F20898B35005FB0C4 /* slice.cpp */,
-				DA33E73020898B35005FB0C4 /* slice.h */,
 				DA33E4EE20898692005FB0C4 /* SolverStatus.h */,
 				DA33E77C2089CCBF005FB0C4 /* sort.cpp */,
 				DA33E77D2089CCBF005FB0C4 /* sort.h */,
@@ -1627,12 +1627,12 @@
 				DA33E7562089CB27005FB0C4 /* colon.cpp in Sources */,
 				DA33E4ED20898660005FB0C4 /* active_set.cpp in Sources */,
 				DA33E75D2089CB64005FB0C4 /* massmatrix.cpp in Sources */,
+				DA7B0020208EDBCF0005B1E3 /* cat.cpp in Sources */,
 				DA33E7752089CC6E005FB0C4 /* volume.cpp in Sources */,
 				DA33E73C20898BCD005FB0C4 /* is_symmetric.cpp in Sources */,
+				DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */,
 				DA33E7782089CC82005FB0C4 /* dihedral_angles.cpp in Sources */,
 				DA33E7692089CC09005FB0C4 /* doublearea.cpp in Sources */,
-				DA33E73220898B35005FB0C4 /* slice.cpp in Sources */,
-				DA33E73820898B6C005FB0C4 /* cat.cpp in Sources */,
 				DA33E4E2208982CF005FB0C4 /* boundary_conditions.cpp in Sources */,
 				DA33E4EA208983BA005FB0C4 /* project_to_line.cpp in Sources */,
 				DA33E7822089CD12005FB0C4 /* reorder.cpp in Sources */,
@@ -1642,16 +1642,16 @@
 				DA33E75E2089CB64005FB0C4 /* invert_diag.cpp in Sources */,
 				DA33E77B2089CCA2005FB0C4 /* cross.cpp in Sources */,
 				DA33E73F20898BF4005FB0C4 /* find.cpp in Sources */,
+				DA7B0022208EDBCF0005B1E3 /* harmonic.cpp in Sources */,
 				DA33E74720898C4B005FB0C4 /* repmat.cpp in Sources */,
 				DA366023208727E000E114C5 /* BbwPluginiOS.mm in Sources */,
 				DA33E7662089CBE6005FB0C4 /* normalize_row_sums.cpp in Sources */,
 				DA33E74820898C4B005FB0C4 /* matlab_format.cpp in Sources */,
 				DA33E7722089CC5C005FB0C4 /* face_areas.cpp in Sources */,
 				DA33E77E2089CCBF005FB0C4 /* sort.cpp in Sources */,
+				DA7B0021208EDBCF0005B1E3 /* slice_into.cpp in Sources */,
 				DA33E4F1208986B6005FB0C4 /* min_quad_with_fixed.cpp in Sources */,
 				DA33E76F2089CC42005FB0C4 /* edge_lengths.cpp in Sources */,
-				DA33E73120898B35005FB0C4 /* harmonic.cpp in Sources */,
-				DA33E73520898B55005FB0C4 /* slice_into.cpp in Sources */,
 				DA33E76C2089CC29005FB0C4 /* squared_edge_lengths.cpp in Sources */,
 				DA33E4E7208983A6005FB0C4 /* EPS.cpp in Sources */,
 			);
