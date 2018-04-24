@@ -15,7 +15,7 @@ IGL_INLINE void igl::invert_diag(
 #ifndef NDEBUG
   typename Eigen::SparseVector<T> dX = X.diagonal().sparseView();
   // Check that there are no zeros along the diagonal
-  assert(dX.nonZeros() == dX.size());
+  //assert(dX.nonZeros() == dX.size());
 #endif
   // http://www.alecjacobson.com/weblog/?p=2552
   if(&Y != &X)
