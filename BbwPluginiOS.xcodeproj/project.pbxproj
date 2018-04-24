@@ -41,6 +41,7 @@
 		DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001F208EDBCF0005B1E3 /* slice.cpp */; };
 		DA7B0026208EDC570005B1E3 /* adjacency_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */; };
 		DA7B0029208EDCF00005B1E3 /* diag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0028208EDCF00005B1E3 /* diag.cpp */; };
+		DA7B002C208EDD390005B1E3 /* isdiag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B002A208EDD380005B1E3 /* isdiag.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -559,6 +560,8 @@
 		DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adjacency_matrix.cpp; sourceTree = "<group>"; };
 		DA7B0027208EDCF00005B1E3 /* diag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diag.h; sourceTree = "<group>"; };
 		DA7B0028208EDCF00005B1E3 /* diag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = diag.cpp; sourceTree = "<group>"; };
+		DA7B002A208EDD380005B1E3 /* isdiag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isdiag.cpp; sourceTree = "<group>"; };
+		DA7B002B208EDD380005B1E3 /* isdiag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isdiag.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -584,6 +587,8 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B002A208EDD380005B1E3 /* isdiag.cpp */,
+				DA7B002B208EDD380005B1E3 /* isdiag.h */,
 				DA7B0028208EDCF00005B1E3 /* diag.cpp */,
 				DA7B0027208EDCF00005B1E3 /* diag.h */,
 				DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */,
@@ -1665,6 +1670,7 @@
 				DA33E4F1208986B6005FB0C4 /* min_quad_with_fixed.cpp in Sources */,
 				DA33E76F2089CC42005FB0C4 /* edge_lengths.cpp in Sources */,
 				DA33E76C2089CC29005FB0C4 /* squared_edge_lengths.cpp in Sources */,
+				DA7B002C208EDD390005B1E3 /* isdiag.cpp in Sources */,
 				DA33E4E7208983A6005FB0C4 /* EPS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
