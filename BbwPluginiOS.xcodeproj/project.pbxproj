@@ -569,6 +569,7 @@
 		DA7B0030208EDDAD0005B1E3 /* sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sum.cpp; sourceTree = "<group>"; };
 		DA7B0031208EDDAD0005B1E3 /* sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sum.h; sourceTree = "<group>"; };
 		DA7B0033208EDDFD0005B1E3 /* redux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redux.h; sourceTree = "<group>"; };
+		DA7B0034208EDE380005B1E3 /* for_each.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = for_each.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -594,6 +595,7 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B0034208EDE380005B1E3 /* for_each.h */,
 				DA7B0033208EDDFD0005B1E3 /* redux.h */,
 				DA7B0030208EDDAD0005B1E3 /* sum.cpp */,
 				DA7B0031208EDDAD0005B1E3 /* sum.h */,
