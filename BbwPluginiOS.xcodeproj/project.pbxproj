@@ -42,6 +42,7 @@
 		DA7B0026208EDC570005B1E3 /* adjacency_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */; };
 		DA7B0029208EDCF00005B1E3 /* diag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0028208EDCF00005B1E3 /* diag.cpp */; };
 		DA7B002C208EDD390005B1E3 /* isdiag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B002A208EDD380005B1E3 /* isdiag.cpp */; };
+		DA7B002F208EDD730005B1E3 /* speye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B002D208EDD720005B1E3 /* speye.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -562,6 +563,8 @@
 		DA7B0028208EDCF00005B1E3 /* diag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = diag.cpp; sourceTree = "<group>"; };
 		DA7B002A208EDD380005B1E3 /* isdiag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isdiag.cpp; sourceTree = "<group>"; };
 		DA7B002B208EDD380005B1E3 /* isdiag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isdiag.h; sourceTree = "<group>"; };
+		DA7B002D208EDD720005B1E3 /* speye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = speye.cpp; sourceTree = "<group>"; };
+		DA7B002E208EDD730005B1E3 /* speye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speye.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -587,6 +590,8 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B002D208EDD720005B1E3 /* speye.cpp */,
+				DA7B002E208EDD730005B1E3 /* speye.h */,
 				DA7B002A208EDD380005B1E3 /* isdiag.cpp */,
 				DA7B002B208EDD380005B1E3 /* isdiag.h */,
 				DA7B0028208EDCF00005B1E3 /* diag.cpp */,
@@ -1648,6 +1653,7 @@
 				DA33E73C20898BCD005FB0C4 /* is_symmetric.cpp in Sources */,
 				DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */,
 				DA33E7782089CC82005FB0C4 /* dihedral_angles.cpp in Sources */,
+				DA7B002F208EDD730005B1E3 /* speye.cpp in Sources */,
 				DA33E7692089CC09005FB0C4 /* doublearea.cpp in Sources */,
 				DA33E4E2208982CF005FB0C4 /* boundary_conditions.cpp in Sources */,
 				DA33E4EA208983BA005FB0C4 /* project_to_line.cpp in Sources */,
