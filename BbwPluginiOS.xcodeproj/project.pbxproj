@@ -43,6 +43,7 @@
 		DA7B0029208EDCF00005B1E3 /* diag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0028208EDCF00005B1E3 /* diag.cpp */; };
 		DA7B002C208EDD390005B1E3 /* isdiag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B002A208EDD380005B1E3 /* isdiag.cpp */; };
 		DA7B002F208EDD730005B1E3 /* speye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B002D208EDD720005B1E3 /* speye.cpp */; };
+		DA7B0032208EDDAD0005B1E3 /* sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0030208EDDAD0005B1E3 /* sum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -565,6 +566,8 @@
 		DA7B002B208EDD380005B1E3 /* isdiag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isdiag.h; sourceTree = "<group>"; };
 		DA7B002D208EDD720005B1E3 /* speye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = speye.cpp; sourceTree = "<group>"; };
 		DA7B002E208EDD730005B1E3 /* speye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speye.h; sourceTree = "<group>"; };
+		DA7B0030208EDDAD0005B1E3 /* sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sum.cpp; sourceTree = "<group>"; };
+		DA7B0031208EDDAD0005B1E3 /* sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -590,6 +593,8 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B0030208EDDAD0005B1E3 /* sum.cpp */,
+				DA7B0031208EDDAD0005B1E3 /* sum.h */,
 				DA7B002D208EDD720005B1E3 /* speye.cpp */,
 				DA7B002E208EDD730005B1E3 /* speye.h */,
 				DA7B002A208EDD380005B1E3 /* isdiag.cpp */,
@@ -1664,6 +1669,7 @@
 				DA33E75E2089CB64005FB0C4 /* invert_diag.cpp in Sources */,
 				DA33E77B2089CCA2005FB0C4 /* cross.cpp in Sources */,
 				DA33E73F20898BF4005FB0C4 /* find.cpp in Sources */,
+				DA7B0032208EDDAD0005B1E3 /* sum.cpp in Sources */,
 				DA7B0022208EDBCF0005B1E3 /* harmonic.cpp in Sources */,
 				DA33E74720898C4B005FB0C4 /* repmat.cpp in Sources */,
 				DA366023208727E000E114C5 /* BbwPluginiOS.mm in Sources */,
