@@ -39,6 +39,7 @@
 		DA7B0021208EDBCF0005B1E3 /* slice_into.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001B208EDBCE0005B1E3 /* slice_into.cpp */; };
 		DA7B0022208EDBCF0005B1E3 /* harmonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */; };
 		DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001F208EDBCF0005B1E3 /* slice.cpp */; };
+		DA7B0026208EDC570005B1E3 /* adjacency_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -553,6 +554,8 @@
 		DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = harmonic.cpp; sourceTree = "<group>"; };
 		DA7B001E208EDBCE0005B1E3 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
 		DA7B001F208EDBCF0005B1E3 /* slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slice.cpp; sourceTree = "<group>"; };
+		DA7B0024208EDC570005B1E3 /* adjacency_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adjacency_matrix.h; sourceTree = "<group>"; };
+		DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adjacency_matrix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,21 +581,16 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
-				DA7B001A208EDBCD0005B1E3 /* cat.cpp */,
-				DA7B001E208EDBCE0005B1E3 /* cat.h */,
-				DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */,
-				DA7B0018208EDBCD0005B1E3 /* harmonic.h */,
-				DA7B0017208EDBCD0005B1E3 /* parallel_for.h */,
-				DA7B001B208EDBCE0005B1E3 /* slice_into.cpp */,
-				DA7B001C208EDBCE0005B1E3 /* slice_into.h */,
-				DA7B001F208EDBCF0005B1E3 /* slice.cpp */,
-				DA7B0019208EDBCD0005B1E3 /* slice.h */,
+				DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */,
+				DA7B0024208EDC570005B1E3 /* adjacency_matrix.h */,
 				DA33E4EC2089865F005FB0C4 /* active_set.cpp */,
 				DA33E4EB2089865F005FB0C4 /* active_set.h */,
 				DA33E4DD208982CF005FB0C4 /* bbw.cpp */,
 				DA33E4DE208982CF005FB0C4 /* bbw.h */,
 				DA33E4DF208982CF005FB0C4 /* boundary_conditions.cpp */,
 				DA33E4E0208982CF005FB0C4 /* boundary_conditions.h */,
+				DA7B001A208EDBCD0005B1E3 /* cat.cpp */,
+				DA7B001E208EDBCE0005B1E3 /* cat.h */,
 				DA33E7542089CB26005FB0C4 /* colon.cpp */,
 				DA33E7552089CB27005FB0C4 /* colon.h */,
 				DA33E7612089CBCA005FB0C4 /* cotmatrix_entries.cpp */,
@@ -613,6 +611,8 @@
 				DA33E7712089CC5B005FB0C4 /* face_areas.h */,
 				DA33E73E20898BF4005FB0C4 /* find.cpp */,
 				DA33E73D20898BF4005FB0C4 /* find.h */,
+				DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */,
+				DA7B0018208EDBCD0005B1E3 /* harmonic.h */,
 				DA33E4E3208982FE005FB0C4 /* igl_inline.h */,
 				DA33E7832089CD2E005FB0C4 /* IndexComparison.h */,
 				DA33E7582089CB63005FB0C4 /* invert_diag.cpp */,
@@ -628,12 +628,17 @@
 				DA33E4EF208986B6005FB0C4 /* min_quad_with_fixed.h */,
 				DA33E7652089CBE6005FB0C4 /* normalize_row_sums.cpp */,
 				DA33E7642089CBE6005FB0C4 /* normalize_row_sums.h */,
+				DA7B0017208EDBCD0005B1E3 /* parallel_for.h */,
 				DA33E4E8208983BA005FB0C4 /* project_to_line.cpp */,
 				DA33E4E9208983BA005FB0C4 /* project_to_line.h */,
 				DA33E7812089CD12005FB0C4 /* reorder.cpp */,
 				DA33E7802089CD12005FB0C4 /* reorder.h */,
 				DA33E74320898C4A005FB0C4 /* repmat.cpp */,
 				DA33E74620898C4B005FB0C4 /* repmat.h */,
+				DA7B001B208EDBCE0005B1E3 /* slice_into.cpp */,
+				DA7B001C208EDBCE0005B1E3 /* slice_into.h */,
+				DA7B001F208EDBCF0005B1E3 /* slice.cpp */,
+				DA7B0019208EDBCD0005B1E3 /* slice.h */,
 				DA33E4EE20898692005FB0C4 /* SolverStatus.h */,
 				DA33E77C2089CCBF005FB0C4 /* sort.cpp */,
 				DA33E77D2089CCBF005FB0C4 /* sort.h */,
@@ -1650,6 +1655,7 @@
 				DA33E7722089CC5C005FB0C4 /* face_areas.cpp in Sources */,
 				DA33E77E2089CCBF005FB0C4 /* sort.cpp in Sources */,
 				DA7B0021208EDBCF0005B1E3 /* slice_into.cpp in Sources */,
+				DA7B0026208EDC570005B1E3 /* adjacency_matrix.cpp in Sources */,
 				DA33E4F1208986B6005FB0C4 /* min_quad_with_fixed.cpp in Sources */,
 				DA33E76F2089CC42005FB0C4 /* edge_lengths.cpp in Sources */,
 				DA33E76C2089CC29005FB0C4 /* squared_edge_lengths.cpp in Sources */,
