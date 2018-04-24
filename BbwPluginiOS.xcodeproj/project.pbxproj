@@ -40,6 +40,7 @@
 		DA7B0022208EDBCF0005B1E3 /* harmonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001D208EDBCE0005B1E3 /* harmonic.cpp */; };
 		DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B001F208EDBCF0005B1E3 /* slice.cpp */; };
 		DA7B0026208EDC570005B1E3 /* adjacency_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */; };
+		DA7B0029208EDCF00005B1E3 /* diag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7B0028208EDCF00005B1E3 /* diag.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -556,6 +557,8 @@
 		DA7B001F208EDBCF0005B1E3 /* slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slice.cpp; sourceTree = "<group>"; };
 		DA7B0024208EDC570005B1E3 /* adjacency_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adjacency_matrix.h; sourceTree = "<group>"; };
 		DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adjacency_matrix.cpp; sourceTree = "<group>"; };
+		DA7B0027208EDCF00005B1E3 /* diag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diag.h; sourceTree = "<group>"; };
+		DA7B0028208EDCF00005B1E3 /* diag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = diag.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -581,6 +584,8 @@
 		DA33D4B02088C4BF005FB0C4 /* igl */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B0028208EDCF00005B1E3 /* diag.cpp */,
+				DA7B0027208EDCF00005B1E3 /* diag.h */,
 				DA7B0025208EDC570005B1E3 /* adjacency_matrix.cpp */,
 				DA7B0024208EDC570005B1E3 /* adjacency_matrix.h */,
 				DA33E4EC2089865F005FB0C4 /* active_set.cpp */,
@@ -1633,6 +1638,7 @@
 				DA33E4ED20898660005FB0C4 /* active_set.cpp in Sources */,
 				DA33E75D2089CB64005FB0C4 /* massmatrix.cpp in Sources */,
 				DA7B0020208EDBCF0005B1E3 /* cat.cpp in Sources */,
+				DA7B0029208EDCF00005B1E3 /* diag.cpp in Sources */,
 				DA33E7752089CC6E005FB0C4 /* volume.cpp in Sources */,
 				DA33E73C20898BCD005FB0C4 /* is_symmetric.cpp in Sources */,
 				DA7B0023208EDBCF0005B1E3 /* slice.cpp in Sources */,
