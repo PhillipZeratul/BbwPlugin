@@ -22,8 +22,8 @@ extern "C" {
         // V : Vertices : std::vector<std::vector<double> > : numOfVertices * double[3] -> Convert from float[][2] to double [][3]
         // F : Triangle : Index std::vector<std::vector<int> > : numOfTriangles * int[3] -> Use directly
         /// dont need T : Tetrahedra : Index std::vector<std::vector<int> > : numOfTetrahedra * int[4]
-        // C : TGF Vertex : std::vector<std::vector<double> > : numOfVertices * double[3] -> Convert from float[][2] to double [][3]
-        // BE : TGF Edges : std::vector<std::vector<int> > : numOfEdges * int[2] -> Use directly
+        // C : Bone Vertex Position : std::vector<std::vector<double> > : numOfVertices * double[3] -> Convert from float[][2] to double [][3]
+        // BE : Bone Edges Indices: std::vector<std::vector<int> > : numOfEdges * int[2] -> Use directly
         // W : Weights Output
 
         double array_V[vCount][3];
@@ -70,7 +70,7 @@ extern "C" {
         std::cout << "BE[" << BE.rows() << ", " << BE.cols() << "] " << beCount << std::endl;
         
         
-        igl::boundary_conditions(V,T,C,Eigen::VectorXi(),BE,Eigen::MatrixXi(),b,bc);
+        igl::boundary_conditions(V,F,C,Eigen::VectorXi(),BE,Eigen::MatrixXi(),b,bc);
 
         
         std::cout << "Flag 1" << std::endl;
